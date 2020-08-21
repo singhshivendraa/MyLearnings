@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+          AJAX
+        </title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <style type="text/css">
+        .size{
+            width:50px;
+            height:50px;
+             margin: 10px;
+             border-radius: 50%;
+             border-color: rgb(135, 92, 205);
+           
+        }
+        #div1{
+            background-color:greenyellow;
+        }
+        </style>
+    </head>
+    <body>
+        <div id="div1" class="size"></div>
+        <p>this is circle</p>
+        <script type="text/javascript">
+            $("#div1").click(function(){
+                $(this).animate({
+                    width:"400px",
+                    height:"400px",
+                    marginLeft:"100px",
+                    marginTop:"100px"
+                    },2000, function(){
+                    $(this).css("background-color","rgb(255,102,201)");
+                    });    
+            });
+        </script>
+        
+    </body>
+</html>
+<!--$("#div1").click(function() -->

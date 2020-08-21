@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <title>
+            JS Game
+        </title>
+    </body>
+    <head>
+        <p>How manu fingres am i holding up?</p>
+        <P><input type="text" id="guess">
+        <button id="checkk">  check </button></P>
+        <script type="text/javascript">
+            document.getElementById("checkk").onclick= function() {
+                    
+                var y = Math.random();
+                
+                y = y * 6;
+                
+                y = Math.floor(y);
+
+                    if(document.getElementById("guess").value == y){
+                        alert("you guess a rih=ght no ");
+                    }
+                    else{
+                        alert("wrong no.");
+                    }
+
+            }
+            
+        </script>
+    </head>
+</html>

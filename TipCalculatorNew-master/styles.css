@@ -1,0 +1,48 @@
+body {
+  background: #333 url('bg2.jpg') center center no-repeat;
+  background-size: color;
+  color:
+}
+
+#container {
+  width:380px;
+  margin: 30px auto 0;
+  padding: 20px;
+  background: url('bg.jpg');
+  border: 3px solid #000;
+  border-radius: 30px;
+  text-align: center;
+}
+
+form label {
+  display: block;
+}
+
+form input, form select {
+  padding:10px;
+  margin:6px 0;
+}
+
+form input[type = "text"] {
+  width:80px;
+}
+
+button {
+  background: #fff;
+  color:#000;
+  border-bottom: #222 solid 2px;
+  padding:15px;
+}
+
+button:hover {
+  background: #000;
+  color:#fff;
+}
+
+#totalTax {
+  font-size: 40px;
+}
+
+#tip {
+  font-size: 40px;
+}
